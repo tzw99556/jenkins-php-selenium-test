@@ -6,6 +6,7 @@ pipeline {
 				stage('Deploy') {
 					agent any
 					steps {
+						git 'init'
 						git 'update-index --chmod=+x jenkins/scripts/deploy.sh'
 						git 'update-index --chmod=+x jenkins/scripts/kill.sh'
 						sh './jenkins/scripts/deploy.sh'
