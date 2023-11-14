@@ -17,7 +17,7 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 /**
- * Integration UI test for PHP App.
+ * Integration UI test for PHP App.f
  */
 public class AppTest
 {
