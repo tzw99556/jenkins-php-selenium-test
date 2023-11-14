@@ -39,7 +39,6 @@ public class AppTest
     public void tearDown() { 
 		driver.quit(); 
 	}	 
-	curl http://mirrors.estointernet.in/apache/maven/maven-3/3.6.3/binaries/apache-maven-3.6.3-bin.tar.gz --output apache-maven-3.6.3-bin.tar.gz
     @Test
     public void testLoginWithValidEmailValidPassword() 
 		throws InterruptedException { 
