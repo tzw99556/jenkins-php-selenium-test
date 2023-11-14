@@ -1,7 +1,7 @@
 #!/usr/bin/env sh
 
 set -x
-docker run -d -p 443:443 --name my-apache-php-app -v /home/src:/var/www/html php:7.2-apache
+docker run -d -p 443:443 --name my-apache-php-app -v /home/jenkins-php-selenium-test/src:/var/www/html php:7.2-apache
 sleep 1
 set +x
 
